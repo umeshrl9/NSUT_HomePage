@@ -629,6 +629,73 @@
     font-size: 90%;
 }
 
+footer{
+    background-color: #003262;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container{
+    padding-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 3%;
+    display: flex;
+}
+
+.container div{
+    width: 28%;
+    border-right: 2px dotted #7d7d7d !important;
+    margin-right: 3%;
+    height: 404px;
+}
+
+.container div > h3:after{
+    display: block;
+    content: "";
+    width: 40px;
+    height: 3px;
+    background: #7d7d7d;
+    margin: 4px 0;
+    
+}
+
+.container div ul{
+    list-style: none;
+    padding-right: 5%
+}
+
+.container div ul a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 93%;
+}
+
+.container div ul a:hover{
+    text-decoration: underline;
+}
+
+.container div ul li{
+    border-bottom: 2px dotted #7d7d7d !important;
+    padding-bottom: 3%
+}
+
+.footer-heading{
+    color: white;
+    font-size: 90%;
+    font-weight: 700;
+}
+
+.container .last-div{
+    width: 38%;
+    border-right: 0px !important;
+    color: white;
+}
+
+.container p{
+    padding-bottom: 5%
+}
+
 @media screen and  (max-width: 768px){
     .main-flex{
         display: flex;
