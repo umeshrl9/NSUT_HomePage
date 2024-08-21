@@ -32,7 +32,8 @@
 }
 
 .last{
-    margin-left: 1120%
+    position: absolute;
+    right: 12.6%;
 }
 
 .banner-image{
@@ -194,7 +195,7 @@
     position: relative;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
     .features{
         flex-direction: column;
         padding-left: 10%;
@@ -272,7 +273,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
     .hide-on-phone{
         display: none;
     }
@@ -374,7 +375,7 @@
 }
 
 
-@media screen and (min-width: 701px) {
+@media screen and (min-width: 801px) {
     .welcome-phone{
         display: none;
     }
@@ -637,15 +638,15 @@ footer{
 .container{
     padding-top: 3%;
     margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 8%;
     padding-bottom: 3%;
     display: flex;
 }
 
 .container div{
-    width: 28%;
+    width: 30%;
     border-right: 2px dotted #7d7d7d !important;
-    margin-right: 3%;
+    margin-right: 2%;
     height: 404px;
     padding-right: 1.5%;
 }
@@ -693,14 +694,25 @@ footer{
 }
 
 .container p{
-    padding-bottom: 5%
+    font-size: 90%;
+    margin-bottom: 3%;
+    line-height: 1.5rem;
 }
 
-@media screen and  (max-width: 768px){
+@media screen and  (max-width: 850px){
     .main-flex{
         display: flex;
         flex-direction: column;
     }
+
+    .welcome-phone h3{
+        font-family: Orbitron, sans-serif;
+        color: white;
+        padding-top: 4%;
+        font-size: 200%;
+        line-height: 3rem;
+    }
+  
 
     .indi-flex{
         padding-bottom: 10%;
@@ -780,8 +792,9 @@ footer{
     }
 
     .container div{
-        width: 99%;
+        width: 95%;
         margin-bottom: 10%;
+        margin-right: 0%;
         border-right: 0px !important;
         height: fit-content;
     }
@@ -797,5 +810,70 @@ footer{
         color: white;
     }
     
+    .last{
+        position: absolute;
+        right: 3%;
+    }
 
 }
+
+@media screen and (max-width: 810px) and (min-width: 768px){
+    .first-list{
+        position: absolute;
+        top:10%;
+        display: flex;
+        list-style: none;
+        padding-left: 10%;
+        box-sizing: border-box;
+        /* justify-content: center; */
+    }
+
+    .header ul li{
+        font-size: 90%;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        padding: 0.1%;
+    }
+
+    .embed-flex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sm{
+        margin-bottom: 10%
+    }
+}
+
+/* *, *::before, *::after {
+    box-sizing: border-box;
+} */
+
+    html, body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+@media screen and (max-width: 850px) and (min-width: 800px){
+    .first-list{
+        position: absolute;
+        top:5.3%;
+        display: flex;
+        list-style: none;
+        padding-left: 10%;
+        box-sizing: border-box;
+        /* justify-content: center; */
+    }
+
+    .header ul li{
+        padding: 0px;;
+    }
+}
+
+@media screen and (max-width: 325px) and (min-width: 300px){
+    .research-at-nsut > em{
+        font-size: 140%;
+    }
+}
+
+    
