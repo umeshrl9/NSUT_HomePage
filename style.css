@@ -817,10 +817,10 @@ footer{
 
 }
 
-@media screen and (max-width: 810px) and (min-width: 768px){
+@media screen and (max-width: 850px) and (min-width: 750px){
     .first-list{
         position: absolute;
-        top:10%;
+        top:20%;
         display: flex;
         list-style: none;
         padding-left: 10%;
