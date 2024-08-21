@@ -32,8 +32,7 @@
 }
 
 .last{
-    position: absolute;
-    right: 12.6%;
+    margin-left: 1120%;
 }
 
 .banner-image{
@@ -712,7 +711,11 @@ footer{
         font-size: 200%;
         line-height: 3rem;
     }
-  
+    
+    .last{
+        position: absolute;
+        right: 12.6%;
+    }
 
     .indi-flex{
         padding-bottom: 10%;
