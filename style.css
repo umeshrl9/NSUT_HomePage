@@ -347,12 +347,12 @@ audio{
 
     .marquee-content {
         display: inline-block;
-        animation: marquee 30s linear infinite; /* Animation speed and repeat */
+        animation: marquee 35s linear infinite; /* Animation speed and repeat */
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
         color: white;
         left: 50%; /* Start the content at 50% */
         transform: translateX(-50%);
-        animation-delay: -6s;
+        animation-delay: -7s;
     }
 
     .first-list{
