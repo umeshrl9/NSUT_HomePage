@@ -123,8 +123,8 @@ sup{
 audio{
     position: absolute;
     top: 20.5%;
-    left: 71%;
-    width: 250px;
+    left: 73%;
+    width: 220px;
     height: 25px;
 }
 .about-content h2:after {
@@ -964,4 +964,18 @@ footer{
     }
 }
 
-    
+@media screen and (max-width: 1400px) and (min-width: 1200px){
+    audio{
+        left: 75%;
+    }
+
+    .last{
+        margin-left: 850%;
+    }
+
+    .first-list img{
+        height: 70px;
+        border-radius: 10px;
+        margin-right: 20px;
+    }
+}
