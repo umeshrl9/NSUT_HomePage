@@ -251,6 +251,13 @@ audio{
     height: 130px;
 }
 
+.latest-news{
+    display: flex;
+    margin-right: 10%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 .container-news{
     margin-top: 0%;
     margin-left: 10%;
@@ -542,10 +549,12 @@ swiper-button-prev{
     }
 
     .latest-news{
-        padding-bottom: 70px !important;
+        padding-top: 40px;
+        padding-bottom: 10px !important;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-right: 0;
     }
 }
 
@@ -611,14 +620,6 @@ swiper-button-prev{
     color: white;
     font-size: 140%;
 }
-
-.latest-news{
-    display: flex;
-    margin-right: 10%;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
 
 .swiper-button-next, .swiper-button-prev {
     width: 10px !important;
@@ -932,14 +933,6 @@ footer{
         flex-direction: column;
     }
 
-    .latest-news{
-        padding-top: 40px;
-    }
-
-    .latest-news{
-        margin-right: 2%;
-    }
-
     .welcome-phone h3{
         font-family: Orbitron, sans-serif;
         color: white;
@@ -982,10 +975,6 @@ footer{
         right: 0;
         width: 90px;
         height: 90px;
-    }
-
-    .slider-wrapper{
-        margin: 0 10px 20px;
     }
 
     .research-at-nsut p{
@@ -1056,6 +1045,10 @@ footer{
     .last{
         position: absolute;
         right: 3%;
+    }
+
+    .swiper{
+        width: 100%;
     }
 
 }
@@ -1165,5 +1158,13 @@ footer{
         height: 70px;
         border-radius: 10px;
         margin-right: 20px;
+    }
+
+    .latest-news{
+        margin-right: 15px;
+    }
+
+    .swiper{
+        width: 110%;
     }
 }
