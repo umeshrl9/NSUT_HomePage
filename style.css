@@ -252,7 +252,6 @@ audio{
 }
 
 .container-news{
-    width: fit-content;
     margin-top: 0%;
     margin-left: 10%;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -297,12 +296,19 @@ audio{
 }
 
 .swiper{
-    width: 73%;
+    width: 80%;
 }
 
-.swiper-wrapper{
-    margin-left: 70px;
-} 
+/* .swiper-wrapper{
+    margin-left: 38px;
+    /* overflow: hidden; */
+/* }  */
+
+.slider-wrapper{
+    overflow: hidden;
+    margin: 0 70px 55px;
+    max-width: 1200px;
+}
 
 .card-content{
     height: 160px;
@@ -615,16 +621,8 @@ swiper-button-prev{
 
 
 .swiper-button-next, .swiper-button-prev {
-    position: absolute;
-    top: var(--swiper-navigation-top-offset, 50%);
     width: 10px !important;
     height: 10px !important;
-    margin-top: calc(0px -(var(--swiper-navigation-size) / 2));
-    z-index: 10;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: white !important;
     font-size: 10px;
     background-color: red;
@@ -645,11 +643,6 @@ swiper-button-prev{
 
 .swiper-slide div > img{
     border: 1px solid lightgray;
-}
-
-.swiper-slide{
-    width: fit-content !important;
-    margin-right: 30px;
 }
 
 .specific-flex li{
@@ -817,9 +810,10 @@ swiper-button-prev{
     height: 90px;
 }
 
-.swiper-image:after {
+
+.card-content:before {
     content: "";
-    width: 150px;   
+    width: 50%;   
     height: 3px;
     position: absolute;
     left: 0;
@@ -946,12 +940,6 @@ footer{
         margin-right: 2%;
     }
 
-    .container-news{
-        width: 100%;
-    }
-
-
-
     .welcome-phone h3{
         font-family: Orbitron, sans-serif;
         color: white;
@@ -994,6 +982,10 @@ footer{
         right: 0;
         width: 90px;
         height: 90px;
+    }
+
+    .slider-wrapper{
+        margin: 0 10px 20px;
     }
 
     .research-at-nsut p{

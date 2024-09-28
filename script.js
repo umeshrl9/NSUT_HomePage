@@ -1,6 +1,6 @@
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.slider-wrapper', {
     loop: true,
-    spaceBetween: true,
+    spaceBetween: 30,
   
     // Navigation arrows
     navigation: {
@@ -13,7 +13,7 @@ const swiper = new Swiper('.swiper', {
             slidesPerView: 1
         },
 
-        620: {
+        768: {
             slidesPerView: 2
         },
 
