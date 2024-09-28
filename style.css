@@ -328,7 +328,7 @@ audio{
     padding-left: 12px;
     padding-right: 12px;
     box-sizing: border-box;
-    position: relative;
+    /* position: relative; */
 }
 
 .card-content p{
@@ -813,7 +813,7 @@ swiper-button-prev{
 }
 
 
-.card-content:before {
+.swiper-image:after {
     content: "";
     width: 50%;   
     height: 3px;
@@ -830,7 +830,7 @@ swiper-button-prev{
     text-decoration: none;
     color: #006FCE;
     position: absolute;
-    top: 90px;
+    top: 320px;
 }
 
 .embed > div{
