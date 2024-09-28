@@ -328,6 +328,7 @@ audio{
     padding-left: 12px;
     padding-right: 12px;
     box-sizing: border-box;
+    position: relative;
 }
 
 .card-content p{
@@ -828,6 +829,8 @@ swiper-button-prev{
     font-size: 14px;
     text-decoration: none;
     color: #006FCE;
+    position: absolute;
+    top: 90px;
 }
 
 .embed > div{
@@ -1050,7 +1053,6 @@ footer{
     .swiper{
         width: 100%;
     }
-
 }
 
 @media screen and (max-width: 850px) and (min-width: 650px){
