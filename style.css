@@ -252,7 +252,8 @@ audio{
 }
 
 .container-news{
-    margin-top: 3%;
+    width: fit-content;
+    margin-top: 0%;
     margin-left: 10%;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -267,7 +268,7 @@ audio{
 
 .container-news > .special  {
     border-top: 3px solid #006FCE;
-    width: 23%;
+    width: 90% !important;
     margin-bottom: 10%;
     display: inline-block;
     margin-right: 10%;
@@ -293,6 +294,37 @@ audio{
     padding-left: 30px;
     padding-right: 30px;
     background-color: #000000;
+}
+
+.swiper{
+    width: 73%;
+}
+
+.swiper-wrapper{
+    margin-left: 70px;
+} 
+
+.card-content{
+    height: 160px;
+    width: 222px;
+    background-color: #EEFFFF;
+    color: #000000;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-top: -6px;
+    padding-top: 25px;
+    padding-left: 12px;
+    padding-right: 12px;
+    box-sizing: border-box;
+}
+
+.card-content p{
+    line-height: 1rem;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+swiper-button-prev{
+    color: red !important;
 }
 
 .shadow{
@@ -502,6 +534,13 @@ audio{
         padding-right: 10px;
         padding-bottom: 10px;
     }
+
+    .latest-news{
+        padding-bottom: 70px !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
@@ -565,6 +604,52 @@ audio{
     text-decoration: none;
     color: white;
     font-size: 140%;
+}
+
+.latest-news{
+    display: flex;
+    margin-right: 10%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+.swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    top: var(--swiper-navigation-top-offset, 50%);
+    width: 10px !important;
+    height: 10px !important;
+    margin-top: calc(0px -(var(--swiper-navigation-size) / 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white !important;
+    font-size: 10px;
+    background-color: red;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid darkgray;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-family: swiper-icons;
+    font-size: 12px !important;
+    font-weight: 1000;
+    text-transform: none !important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+}
+
+.swiper-slide div > img{
+    border: 1px solid lightgray;
+}
+
+.swiper-slide{
+    width: fit-content !important;
+    margin-right: 30px;
 }
 
 .specific-flex li{
@@ -732,6 +817,24 @@ audio{
     height: 90px;
 }
 
+.swiper-image:after {
+    content: "";
+    width: 150px;   
+    height: 3px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 221px;
+    margin: auto;
+    background: #ed1c24;
+}
+
+.card-content a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #006FCE;
+}
+
 .embed > div{
     display: flex;
     justify-content: space-evenly;
@@ -834,6 +937,20 @@ footer{
         display: flex;
         flex-direction: column;
     }
+
+    .latest-news{
+        padding-top: 40px;
+    }
+
+    .latest-news{
+        margin-right: 2%;
+    }
+
+    .container-news{
+        width: 100%;
+    }
+
+
 
     .welcome-phone h3{
         font-family: Orbitron, sans-serif;
