@@ -1051,12 +1051,12 @@ footer{
     }
 
     .swiper{
-        width: 80%;
+        width: 75%;
     }
 
     .slider-wrapper{
         overflow: hidden;
-        margin: 0 40px 55px;
+        margin: 0 30px 55px;
         max-width: 1200px;
     }
 }
@@ -1179,7 +1179,7 @@ footer{
 
 @media screen and (max-width:350px){
     .swiper{
-        width: 85%;
+        width: 90%;
     }
 
     .slider-wrapper{
